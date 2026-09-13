@@ -48,6 +48,9 @@ In chemical manufacturing, raw material costs fluctuate constantly. When naphtha
 ### 1. View the Dashboard
 Open `index.html` directly in any web browser. It runs natively with vanilla JavaScript and CSS without requiring a local server.
 
+## for live preview, click here;
+https://chemmargin-risk-engine.onrender.com/
+
 ### 2. Run the Code Locally
 ```bash
 pip install -r requirements.txt
