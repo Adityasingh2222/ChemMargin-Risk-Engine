@@ -1,0 +1,19 @@
+(a) Next-Day Margin Point Forecast (regression, reported for transparency)
+  Model MAE: $16.89/ton   R2: 0.777
+  Naive persistence baseline MAE: $8.22/ton
+  (Daily margin changes are close to unpredictable noise, as expected for
+   a near-mean-reverting spread -- this motivates (b) below.)
+
+(b) 10-Day Margin Risk Early-Warning Classifier
+  F1: 0.540   ROC-AUC: 0.804
+
+Fitted mean-reversion model: kappa=0.016, long-run mean=$25.88/ton, daily sigma=$9.76/ton
+
+21-Day Monthly Margin Risk (Unhedged)
+  Expected: $918,429   95% VaR: $632,092   95% CVaR: $792,442
+
+Hedge Ratio Efficient Frontier (illustrative policy points)
+  0% hedge:   Expected $918,429, 95% VaR $632,092
+  40% hedge:  Expected $1,011,391, 95% VaR $379,255
+  75% hedge:  Expected $1,092,733, 95% VaR $158,023
+  100% hedge: Expected $1,150,834, 95% VaR $-0
